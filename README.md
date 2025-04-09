@@ -8,5 +8,6 @@ These codes were run on a computing cluster using slurm array jobs. There are a 
 The codes are organized as follows:
 1. run number 1-4 are for Figure 1 which is simulation results on the level of the $p$-values. Each of these run have the same setup except for using different sample sizes.
 2. run number 5-8 are for Figure 2 which is simulation results on the power of the $p$-values. How each run corresponds to each alternative model can be found out from the "summary.R" file.
-3. the `functions.R` file contains all the helper functions for simulation runs, aggregating results, and for plotting.
-4. the `summary.R` file contains codes to aggregate run results as well as plotting.
+3. files with "ptm1" are for results with the posterior mean as the plug-in estimator; files with "ptm2" are for results with the MLE as the plug-in estimator.
+4. the `functions.R` file contains all the helper functions for simulation runs, aggregating results, and for plotting.
+5. the `summary.R` file contains codes to aggregate run results as well as plotting.
